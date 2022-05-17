@@ -14,12 +14,55 @@ body {
     font-size: 3rem;
 }
 
+.pealkiriTekst{
+    color: pink;
+    font-size: 3rem;
+    font-family: 'Smooch', cursive;
+    position: relative;
+    animation: pealkiri;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2; 
+}
+
+@keyframes pealkiri {
+    0% {top: -250px}
+    100% {top: 10px}
+}
+
 .pilt{
     width: 330px;
 }
 
+.pilt{    
+    position: relative;
+    animation: pilt;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes pilt {
+    0% {left: -250px}
+    100% {left: 10px}
+}
+
 .vajalikTekst{
     color: pink;
+}
+
+.vajalikTekst{
+    color: pink;    
+    position: relative;
+    animation: vajalikTekst;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 4;
+}
+
+@keyframes vajalikTekst {
+    0% {bottom: -250px}
+    100% {left: 0px}
 }
 
 .retseptTekst{
