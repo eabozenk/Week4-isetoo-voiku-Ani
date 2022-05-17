@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Smooch&family=Zen+Loop&display=swap');
+
+body {
+    background-color: green;
+}
+
+.vajalikKast{
+    border: 4px solid yellow;    
+}
+
+.pealkiriTekst{
+    color: pink;
+    font-family: 'Smooch', cursive;
+    font-size: 3rem;
+}
+
+.pilt{
+    width: 330px;
+}
+
+.vajalikTekst{
+    color: pink;
+}
+
+.retseptTekst{
+    color: pink;
+}
